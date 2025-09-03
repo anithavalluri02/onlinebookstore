@@ -5,7 +5,7 @@ pipeline {
         stage('Checkout') {
             steps {
                 git branch: 'main',
-                    url: 'https://github.com/your-org/online-bookstore.git'
+                    url: 'https://github.com/anithavalluri02/onlinebookstore.git'
             }
         }
 
